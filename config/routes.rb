@@ -16,6 +16,7 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  get '/about', to: 'pages#about'
   # Example resource route with options:
   #   resources :products do
   #     member do
